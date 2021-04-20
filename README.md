@@ -1,6 +1,3 @@
-Note: This is work in progress and not finished yet.
-
-
 # Introduction to Julia and Trixi, a numerical simulation framework for hyperbolic PDEs
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-success.svg)](https://opensource.org/licenses/MIT)
