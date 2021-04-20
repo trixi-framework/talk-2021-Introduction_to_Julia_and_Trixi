@@ -10,10 +10,9 @@ This is the companion repository for the talk
 
 **Introduction to Julia and Trixi, a numerical simulation framework for hyperbolic PDEs**</br>
 *Hendrik Ranocha*</br>
-TODO: Some seminar</br>
-TODO: Some date and time
+Applied Mathematics Seminar, University of Münster</br>
+Tuesday, 2021-04-27, 10:00 CEST
 
-[(see abstract below)](#abstract).
 Here you can find the presentation in form of a [Jupyter](https://jupyter.org/)
 notebook [`Talk.ipynb`](Talk.ipynb). This notebook contains a couple of additional
 slides not presented in the talk. There are also some additional Trixi elixirs
@@ -115,43 +114,6 @@ pip3 install --user RISE
 ```
 After opening the Jupyter notebook, you can enter the RISE presentation mode
 with `Alt + R`.
-
-
-## Abstract
-
-TODO
-
-<!-- Julia has been touted as a programming language especially well-suited for
-numerical analysis and scientific computing. However, while its prevalence is
-steadily increasing, it has not yet seen widespread adoption in the
-computational science or high-performance computing communities. One of the
-hurdles is a (perceived) lack of real-world examples that show how Julia can be
-used to conduct numerical simulations and what its advantages and drawbacks are
-for scientific applications.
-
-To remediate this, in this talk we discuss the development of a purely
-hyperbolic method for self-gravitating gas dynamics within our Julia-based open
-source simulation framework
-[Trixi.jl](https://github.com/trixi-framework/Trixi.jl). In this approach, we
-reformulate
-the elliptic gravity problem into a hyperbolic diffusion problem, which is
-solved in pseudotime using the same explicit high-order discontinuous Galerkin
-method we use for the flow solution. A key benefit is that in the resulting
-multi-physics simulation problem, we can reuse existing hyperbolic solvers while
-retaining advanced features such as non-conforming and solution-adaptive meshes.
-
-Next to presenting numerical results, we will critically examine our experience
-with building a multi-physics simulation framework with Julia. We will discuss
-its strengths and weaknesses as a programming language for research software
-engineering, including an assessment of how Julia's claimed benefits hold up
-against scientific reality, and give a live demonstration of Julia and Trixi.jl
-in action. -->
-
-To make the shown examples reproducible by the audience, the Jupyter notebook
-used for the live demonstration is available in this repository
-(see [above](#getting-started)).
-It can be either run from a local Julia/Jupyter installation or in the cloud via
-Binder (without having to install Julia locally).
 
 ## Authors
 This repository was initiated by [Hendrik Ranocha](https://ranocha.de).
