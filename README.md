@@ -4,7 +4,7 @@ Note: This is work in progress and not finished yet.
 # Introduction to Julia and Trixi, a numerical simulation framework for hyperbolic PDEs
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-success.svg)](https://opensource.org/licenses/MIT)
-<!-- [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/trixi-framework/talk-2021-julia-adaptive-multi-physics-simulations/main?filepath=getting_started_with_julia_and_trixi.ipynb) -->
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/trixi-framework/talk-2021-Introduction_to_Julia_and_Trixi/HEAD?filepath=Talk.ipynb)
 
 This is the companion repository for the talk
 
@@ -18,11 +18,37 @@ notebook [`Talk.ipynb`](Talk.ipynb). This notebook contains a couple of addition
 slides not presented in the talk. There are also some additional Trixi elixirs
 (simulation setups) in the [`examples`](examples) directory.
 
+## Abstract
+
+[Julia](https://julialang.org) is a modern high-level programming language developed
+specifically with scientific computing in mind.
+[Trixi.jl](https://github.com/trixi-framework/Trixi.jl) is a numerical simulation
+framework for hyperbolic conservation laws written in Julia. A key objective for
+the framework is to be useful to both scientists and students. Therefore, next
+to having an extensible design with a fast implementation, Trixi is focused on
+being easy to use for new or inexperienced users, including the installation
+and postprocessing procedures.
+
+This presentation is a live demonstration of Julia and Trixi. Firstly, we
+introduce Julia and demonstrate some of its design principles. This introduction
+is aimed at researchers in numerical analysis with previous programming experience.
+Next, we show how to use Trixi for setting up and running simulations, how to
+visualize the results, and how to extend Trixi with new functionality. We
+demonstrate how key design principles of Julia are used in Trixi and the Julia
+package ecosystem, e.g. to enable automatic differentiation through a complete
+simulation involving hyperbolic conservation laws.
+
+The presentation is available as a Jupyter notebook at
+https://github.com/trixi-framework/talk-2021-Introduction_to_Julia_and_Trixi,
+including information how to set up everything. For more information about Trixi
+and how to use it, please visit [Trixi on GitHub](https://github.com/trixi-framework/Trixi.jl)
+or refer to the [official documentation](https://trixi-framework.github.io/Trixi.jl/stable/).
+
+
 ## Getting started
 
 ### Using mybinder.org
 The easiest way to get started is to click on the *Launch Binder* badge above.
-<!-- (or [here](https://mybinder.org/TODO)). -->
 This launches the notebook for interactive use in your browser without the need
 to download or install anything locally.
 
