@@ -8,7 +8,8 @@ This is the companion repository for the talk
 **Introduction to Julia and Trixi, a numerical simulation framework for hyperbolic PDEs**</br>
 *Hendrik Ranocha*</br>
 Applied Mathematics Seminar, University of Münster</br>
-Tuesday, 2021-04-27, 10:00 CEST
+Tuesday, 2021-04-27, 10:00 CEST</br>
+Announced [online](https://www.uni-muenster.de/FB10/Service/show_article.shtml?id=8490&brettid=53)
 
 Here you can find the presentation in form of a [Jupyter](https://jupyter.org/)
 notebook [`Talk.ipynb`](Talk.ipynb). This notebook contains a couple of additional
