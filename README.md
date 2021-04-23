@@ -1,6 +1,7 @@
 # Introduction to Julia and Trixi, a numerical simulation framework for hyperbolic PDEs
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-success.svg)](https://opensource.org/licenses/MIT)
+[![nbviewer](https://raw.githubusercontent.com/jupyter/design/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/trixi-framework/talk-2021-Introduction_to_Julia_and_Trixi/blob/main/Talk.ipynb)
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/trixi-framework/talk-2021-Introduction_to_Julia_and_Trixi/HEAD?filepath=Talk.ipynb)
 
 This is the companion repository for the talk
@@ -44,6 +45,14 @@ or refer to the [official documentation](https://trixi-framework.github.io/Trixi
 
 
 ## Getting started
+
+You can view a static version of the Jupyter notebook [`Talk.ipynb`](Talk.ipynb)
+
+- directly on GitHub (select the notebook; this may fail sometimes)
+- or on [nbviewer.jupyter.org](https://nbviewer.jupyter.org/)
+  (select the "render" badge at the top of this README)
+
+These static versions do not contain output of the code cells.
 
 ### Using mybinder.org
 The easiest way to get started is to click on the *Launch Binder* badge above.
